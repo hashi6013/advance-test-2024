@@ -1,0 +1,48 @@
+.thanks__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.thanks__heading {
+    text-align: center;
+}
+
+.thanks__link {
+    margin-top: 50px;
+}
+
+.thanks__link-item {
+    padding: 10px 30px;
+    width: 20%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #82756a;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Gelasio", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.thanks__link-item {
+    position: relative;
+    z-index: 2;
+}
+.thanks__content::before {
+    content: "Thank you";
+    font-size: 150px;
+    width: 800px;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0.1;
+    transform: translateY(-50%) translateX(-50%);
+    font-family: "Gelasio", serif;
+    font-weight: 400;
+    font-style: normal;
+}

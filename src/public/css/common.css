@@ -1,0 +1,22 @@
+body {
+    color: #8b7969;
+}
+
+.header__inner {
+    margin: 0 auto;
+    max-width: 1230px;
+    padding: 15px 15px;
+    border-bottom: 1px solid #e0dfde;
+    text-align: center;
+}
+
+.header__logo {
+    color: #8b7969;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: "Gelasio", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* background-color: aliceblue; */
+
+}
